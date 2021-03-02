@@ -12,7 +12,7 @@ const myWorldObj = document.getElementById('myWorld');
 // SCENE required 1 of 3
 const scene = new THREE.Scene();
 // customize some scene props
-scene.background = new THREE.Color(0xf0f0f0);
+scene.background = new THREE.Color(0x649C82);
 
 // Add Light to scene .. REQUIRED for 3d models
 const ambLight = new THREE.AmbientLight(0x404040, 5 );
@@ -36,7 +36,7 @@ loaderObj.load(
   function ( gltf ) {
     modelObj = gltf.scene;
     scene.add(modelObj);
-    modelObj.position.y = -30;
+    modelObj.position.y = -32.5;
   },
   // While loading is processing
   function ( xhr ) {
