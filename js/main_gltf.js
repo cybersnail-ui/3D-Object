@@ -1,11 +1,11 @@
 // Module imports
 //
 
-import * as THREE from 'https://raw.githubusercontent.com/cybersnail-ui/3D-Object/main/node_modules/three/build/three.module.js';
+import * as THREE from '../node_modules/three/build/three.module.js';
 
-import { GLTFLoader } from 'https://raw.githubusercontent.com/cybersnail-ui/3D-Object/main/node_modules/three/examples/jsm/loaders/GLTFLoader.js';
+import { GLTFLoader } from '../node_modules/three/examples/jsm/loaders/GLTFLoader.js';
 
-import { OrbitControls } from 'https://raw.githubusercontent.com/cybersnail-ui/3D-Object/main/node_modules/three/examples/jsm/controls/OrbitControls.js';
+import { OrbitControls } from '../node_modules/three/examples/jsm/controls/OrbitControls.js';
 
 const myWorldObj = document.getElementById('myWorld');
 
