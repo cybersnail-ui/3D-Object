@@ -1,0 +1,16 @@
+/* Main css */
+
+body {
+    background-color: #777;
+  }
+  
+  #wrapper {
+    width: 1200px;
+    margin: 10px auto;
+    background-color: #fff;
+  }
+  
+  #myWorld {
+    width: 1200px;
+    height: 800px;
+  }
