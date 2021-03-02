@@ -30,7 +30,7 @@ myWorldObj.appendChild(renderer.domElement);
 let modelObj;
 
 // Load a glTF resource
-const loaderObj = new GLTFLoader().setPath('../models/robot/gltf/');
+const loaderObj = new GLTFLoader().setPath('./models/robot/gltf/');
 loaderObj.load(
   'wraith.gltf',
   function ( gltf ) {
