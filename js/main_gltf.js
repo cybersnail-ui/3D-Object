@@ -1,11 +1,11 @@
 // Module imports
 //
 
-import * as THREE from './node_modules/three/build/three.module.js';
+import * as THREE from 'https://unpkg.com/three@0.119.0/build/three.module.js';
 
-import { GLTFLoader } from './node_modules/three/examples/jsm/loaders/GLTFLoader.js';
+import { GLTFLoader } from 'https://unpkg.com/three@0.119.0/examples/jsm/loaders/GLTFLoader.js';
 
-import { OrbitControls } from './node_modules/three/examples/jsm/controls/OrbitControls.js';
+import { OrbitControls } from 'https://unpkg.com/three@0.119.0/examples/jsm/controls/OrbitControls.js';
 
 const myWorldObj = document.getElementById('myWorld');
 
