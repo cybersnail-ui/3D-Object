@@ -57,15 +57,50 @@ controlsObj.addEventListener('change', controlsRender);
 
 // Auto LOOP
 // Create JS function that auto LOOPS
+
+let rotationValue = 0.01;
 const animate = function () {
   requestAnimationFrame(animate);
 
-  
+
   if (modelObj) {
-    modelObj.rotation.y += 0.01;
+    modelObj.rotation.y += rotationValue;
   }
   
 
   renderer.render(scene, camera);
 };
 animate();
+
+document.getElementById("red").onclick = function() {red()};
+document.getElementById("green").onclick = function() {green()};
+document.getElementById("blue").onclick = function() {blue()};
+
+document.getElementById("rewind").onclick = function() {rewind()};
+document.getElementById("stop").onclick = function() {stop()};
+document.getElementById("forward").onclick = function() {forward()};
+
+
+function red() {
+  scene.background = new THREE.Color(0xFF1A1A);
+}
+
+function green() {
+  scene.background = new THREE.Color(0x649C82);
+}
+
+function blue() {
+  scene.background = new THREE.Color(0x3632FF);
+}
+
+function rewind() {
+  rotationValue = -0.01;
+}
+
+function stop() {
+  rotationValue = -0;
+}
+
+function forward() {
+  rotationValue = 0.01;
+}

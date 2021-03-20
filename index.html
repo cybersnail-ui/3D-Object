@@ -7,9 +7,14 @@
   <title>Cyberpunk Display</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
+
 <div class="container">
   <h1 class="heading" data-target-resolver></h1>
 </div>
+
+
+
+
 <body>
   <div class="frame">
     <div class="piece output">
@@ -20,8 +25,22 @@
     <div class="piece scanlines noclick"></div>
   </div>
 </div>
+<div class="button-container">
+  <div>
+    <button type="button" id="red"></button>
+    <button type="button" id="green"></button>
+    <button type="button" id="blue"></button>
+  </div>
+  <div>
+    <button type="button" id="rewind"></button>
+    <button type="button" id="stop"></button>
+    <button type="button" id="forward"></button>
+  </div>
+</div>
 <div class="piece glow noclick"></div>
 <script>
+
+
   const resolver = {
   resolve: function resolve(options, callback) {
     // The string to resolve

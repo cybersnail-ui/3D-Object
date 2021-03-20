@@ -5,6 +5,63 @@ body {
     background-color: #000000;
     pointer-events: none;
   }
+
+
+  .button-container {
+    display: block;
+    position: absolute;
+    top: 88%;
+    left: 78%;
+    transform: translate(-88%, -78%);
+  }
+
+  button {
+    margin: 1rem;
+    z-index: 100;
+    position: relative;
+    pointer-events: auto !important;
+    height: 60px;
+    width: 60px;
+    padding: 0;
+    border: none;
+    background: none;
+  }
+
+  #red {
+    background-color: #FF1A1A;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  #green {
+    background-color: #649C82;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  #blue {
+    background-color: #3632FF;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  #rewind {
+    background: url(/assets/svgs/rewind.svg) no-repeat;
+    background-size: 100%;
+  }
+
+  #stop {
+    background: url(/assets/svgs/stop.svg) no-repeat;
+    background-size: 100%;
+  }
+
+  #forward {
+    background: url(/assets/svgs/forward.svg) no-repeat;
+    background-size: 100%;
+  }
   
   #wrapper {
     width: 1200px;
