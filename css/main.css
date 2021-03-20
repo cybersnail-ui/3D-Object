@@ -49,17 +49,17 @@ body {
   }
 
   #rewind {
-    background: url(/assets/svgs/rewind.svg) no-repeat;
+    background: url(assets/svgs/rewind.svg) no-repeat;
     background-size: 100%;
   }
 
   #stop {
-    background: url(/assets/svgs/stop.svg) no-repeat;
+    background: url(assets/svgs/stop.svg) no-repeat;
     background-size: 100%;
   }
 
   #forward {
-    background: url(/assets/svgs/forward.svg) no-repeat;
+    background: url(assets/svgs/forward.svg) no-repeat;
     background-size: 100%;
   }
   
